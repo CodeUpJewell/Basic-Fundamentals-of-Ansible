@@ -1,6 +1,6 @@
-Overview
+#Overview
 
-This project has:
+This project shows:
 
 - Beginner level introduction to Ansible
 - Introduction to YAML and Hands-on Exercises
@@ -8,7 +8,7 @@ This project has:
 - Build Ansible Inventory Files with Hands-on Exercises
 - Automate provisioning and web server deployment
 
-This project will create:
+In this project I will create:
 
 - Ansible Inventory
 - Ansible Playbooks
