@@ -2,20 +2,20 @@ Overview
 
 This project has:
 
-*Beginner level introduction to Ansible
-*Introduction to YAML and Hands-on Exercises
-*Build Ansible Inventory Files with Hands-on Exercises
-*Build Ansible Inventory Files with Hands-on Exercises
-*Automate provisioning and web server deployment
+-Beginner level introduction to Ansible
+-Introduction to YAML and Hands-on Exercises
+-Build Ansible Inventory Files with Hands-on Exercises
+-Build Ansible Inventory Files with Hands-on Exercises
+-Automate provisioning and web server deployment
 
 This project will create:
 
-*Ansible Inventory
-*Ansible Playbooks
-*Ansible Modules
-*Ansible Variables
-*Ansible Conditionals
-*Ansible Loops and Roles
+-Ansible Inventory
+-Ansible Playbooks
+-Ansible Modules
+-Ansible Variables
+-Ansible Conditionals
+-Ansible Loops and Roles
 
 # Fundamentals-of-Ansible
 
