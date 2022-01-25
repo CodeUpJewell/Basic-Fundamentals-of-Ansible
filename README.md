@@ -38,9 +38,9 @@ It's simple, powerful, and agentless providing provisioning, config management, 
 
 #What will we use?
 
-Ansible
-Oracle VMware VirtualBox
-YAML
-CentOS
-Linux Administrator Skills
+- Ansible
+- Oracle VMware VirtualBox
+- YAML
+- CentOS
+- Linux Administrator Skills
 
