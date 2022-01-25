@@ -36,7 +36,7 @@ It's simple, powerful, and agentless providing provisioning, config management, 
     Ansible uses SSH by default instead of requiring agents everywhere. Avoid extra open ports, improve security, eliminate "managing the management", and reclaim CPU cycles.
     Ansible automates app deployment, configuration management, workflow orchestration, and even cloud provisioning all from one system.
 
-#What will we use?
+# What will we use?
 
 - Ansible
 - Oracle VMware VirtualBox
