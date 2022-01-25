@@ -1,0 +1,1 @@
+I create a template system based on CentOS, next I create an Ansible control machine and 2 targets for Ansible to run configuration changes on.
