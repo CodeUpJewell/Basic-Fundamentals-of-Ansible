@@ -1,0 +1,10 @@
+Ansible Inventory
+
+We create a sample inventory file with 4 servers listed.
+
+# Inventory File
+
+server1.business.com
+server2.business.com
+server3.business.com
+server4.business.com
