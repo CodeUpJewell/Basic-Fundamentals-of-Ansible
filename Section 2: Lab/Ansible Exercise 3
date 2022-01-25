@@ -2,10 +2,10 @@ The web servers are linux, but the db server is windows.
 We add additional parameters in each line to add ansible_connection, ansible_user and password. Use the below table for information about credentials.
 
 Alias 	    Host 	           Connection 	  User 	        Password
-web1 	server1.company.com 	   SSH 	        root 	        Password123!
-web2 	server2.company.com 	   SSH 	        root    	    Password123!
-web3 	server3.company.com 	   SSH 	        root 	        Password123!
-db1 	server4.company.com 	  Windows 	administrator 	  Password123!
+web1 	server1.business.com 	   SSH 	        root 	        Password123!@
+web2 	server2.business.com 	   SSH 	        root    	    Password123!@
+web3 	server3.business.com 	   SSH 	        root 	        Password123!@
+db1 	server4.business.com 	  Windows 	administrator 	  Password123!@
 
 # Web Servers
 web1 ansible_host=server1.business.com ansible_connection=ssh ansible_user=root ansible_ssh_pass=Password123!@
