@@ -1,5 +1,10 @@
 # Overview
 
+## Fundamentals-of-Ansible
+
+Introduces the basic use cases of Ansible followed by an introduction to Ansible Inventory, Playbooks, Modules, Variables, Conditionals, Loops and Roles. Each section is accompanied by a set of coding exercises showing my hands-on experience in developing Ansible Playbooks.
+
+
 This project shows:
 
 - Beginner level introduction to Ansible
@@ -17,9 +22,6 @@ In this project I will create:
 - Ansible Conditionals
 - Ansible Loops and Roles
 
-# Fundamentals-of-Ansible
-
-Introduces the basic use cases of Ansible followed by an introduction to Ansible Inventory, Playbooks, Modules, Variables, Conditionals, Loops and Roles. Each section is accompanied by a set of coding exercises showing my hands-on experience in developing Ansible Playbooks.
 
 # Why Ansible?
 
