@@ -2,7 +2,8 @@
 
 ## Fundamentals-of-Ansible
 
-Introduces the basic use cases of Ansible followed by an introduction to Ansible Inventory, Playbooks, Modules, Variables, Conditionals, Loops and Roles. Each section is accompanied by a set of coding exercises showing my hands-on experience in developing Ansible Playbooks.
+Introduces the basic use cases of Ansible followed by an introduction to Ansible Inventory, Playbooks, Modules, Variables, Conditionals, Loops and Roles. 
+Each section is accompanied by a set of coding case point showing my hands-on experience in development and application usage in an Ansible envirnonment.
 
 
 This project shows:
@@ -36,4 +37,10 @@ It's simple, powerful, and agentless providing provisioning, config management, 
     Ansible automates app deployment, configuration management, workflow orchestration, and even cloud provisioning all from one system.
 
 #What will we use?
+
+Ansible
+Oracle VMware VirtualBox
+YAML
+CentOS
+Linux Administrator Skills
 
