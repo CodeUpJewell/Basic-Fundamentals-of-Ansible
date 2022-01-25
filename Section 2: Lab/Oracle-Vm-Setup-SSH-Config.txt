@@ -1,0 +1,5 @@
+We first create multiple clones of my base template(CentOs) to create one ansible controller and two ansible targets. 
+We then establish an SSH session to these machines and do the following:
+1. We modify their respective hostname and hostfile(using sudo vi) to the proper names(Ansible-Controller & Ansible-Target*)
+2. We sudo yum install ansible to our Ansible controller.
+3. Finally we ansible --version to make sure Ansible was installed.
