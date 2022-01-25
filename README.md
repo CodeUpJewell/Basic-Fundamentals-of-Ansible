@@ -1,6 +1,6 @@
 # Overview
 
-## Fundamentals-of-Ansible
+## Fundamentals of Ansible
 
 Introduces the basic use cases of Ansible followed by an introduction to Ansible Inventory, Playbooks, Modules, Variables, Conditionals, Loops and Roles. 
 Each section is accompanied by a set of coding case point showing my hands-on experience in development and application usage in an Ansible envirnonment.
