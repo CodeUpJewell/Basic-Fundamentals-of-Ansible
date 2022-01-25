@@ -4,6 +4,8 @@ Introduces the basic use cases of Ansible followed by an introduction to Ansible
 # Why Ansible?
 
 Ansible is a powerful tool for automation to the provision of the target environment and to then deploy the application. It helps you with configuration management, application deployment, task automation, and also IT orchestration. It can run tasks in a sequence and create a chain of events happening on different servers or devices. 
+ 
+It's simple, powerful, and agentless providing provisioning, config management, continuous delivery, application deployment, and security compliance!
 
 # Ansible's Features
 
