@@ -1,0 +1,15 @@
+Dictionary in Dictionary
+
+A dictionary is given. Add the properties to it using information from the table below.
+
+Key/Property 	Value
+name 	        john
+gender 	      male
+age 	        24
+
+# Sample Dictionry
+
+employee:
+    name: john
+    gender: male
+    age: 24
