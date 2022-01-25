@@ -1,0 +1,6 @@
+Given a dictionary with the property home1 and value value1. Add an additional home2 and value value2.
+
+#Sample YAML
+
+home1: value1
+home2: value2
