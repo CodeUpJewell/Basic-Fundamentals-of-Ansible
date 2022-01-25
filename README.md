@@ -1,4 +1,18 @@
+Overview
+
+This project has:
+
+Beginner level introduction to Ansible
+>Introduction to YAML and Hands-on Exercises
+>Build Ansible Inventory Files with Hands-on Exercises
+>Build Ansible Inventory Files with Hands-on Exercises
+>Automate provisioning and web server deployment
+
+This project will create:
+Ansible Inventory, Playbooks, Modules, Variables, Conditionals, Loops and Roles.
+
 # Fundamentals-of-Ansible
+
 Introduces the basic use cases of Ansible followed by an introduction to Ansible Inventory, Playbooks, Modules, Variables, Conditionals, Loops and Roles. Each section is accompanied by a set of coding exercises showing my hands-on experience in developing Ansible Playbooks.
 
 # Why Ansible?
@@ -12,3 +26,6 @@ It's simple, powerful, and agentless providing provisioning, config management, 
     Ansible's natural automation language allows sysadmins, developers, and IT managers to complete automation projects in hours, not weeks.
     Ansible uses SSH by default instead of requiring agents everywhere. Avoid extra open ports, improve security, eliminate "managing the management", and reclaim CPU cycles.
     Ansible automates app deployment, configuration management, workflow orchestration, and even cloud provisioning all from one system.
+
+#What will we use?
+
