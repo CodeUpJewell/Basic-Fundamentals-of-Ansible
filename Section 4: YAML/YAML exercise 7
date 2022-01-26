@@ -1,0 +1,11 @@
+List of Dictionary
+
+We would like to record information about multiple employees. Create an array employees.
+
+#Sample
+
+employees:
+    -
+       name: john
+       gender: male
+       age: 24
