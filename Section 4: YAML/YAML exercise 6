@@ -1,0 +1,24 @@
+List of Dictionaries
+
+We would like to add additional details for each item, such as color, weight etc.
+Modify the items to match the below data.
+
+Fruit 	Color 	Weight
+apple 	red 	  100g
+apple 	red 	  90g
+mango 	yellow 	150g
+
+# Sample
+
+- 
+    name: apple
+    color: red
+    weight: 100g
+- 
+    name: apple
+    color: red
+    weight: 90g
+- 
+    name: mango
+    color: yellow
+    weight: 150g
