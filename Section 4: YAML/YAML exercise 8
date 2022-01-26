@@ -1,0 +1,20 @@
+List of Dictionary
+
+Add an additional employee to the list using the below information from YAML exercise 7.
+
+Key/Property 	Value
+name 	sarah
+gender 	female
+age 	28
+
+# Sample
+
+employees:
+    -
+        name: john
+        gender: male
+        age: 24
+    -
+        name: sarah
+        gender: female
+        age: 28
