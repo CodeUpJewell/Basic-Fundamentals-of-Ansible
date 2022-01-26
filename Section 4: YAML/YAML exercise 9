@@ -1,0 +1,35 @@
+List of Dictionary in Dictionary
+
+Now try adding the pay information. Address is a dictionary, payslips is an array of month and amount
+
+Key/Property 	Value
+name 	john
+gender 	male
+age 	24
+address 	...
+payslips 	
+# 	month 	amount
+1 	june 	1400
+2 	july 	2400
+3 	august 	3400
+
+#Sample
+
+employee:
+    name: john
+    gender: male
+    payslips:
+    -
+        month: june
+        amount: 1400
+    -
+        month: july
+        amount: 2400
+    -
+        month: august
+        amount: 3400
+    age: 24
+    address:
+        city: edison
+        state: 'new jersey'
+        country: 'united states'
