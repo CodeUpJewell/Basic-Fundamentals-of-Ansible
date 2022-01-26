@@ -3,11 +3,24 @@ Dictionary in Dictionary in Dictionary
 Now try adding the address information. Note the address is a dictionary
 
 Key/Property 	Value
-name 	john
-gender 	male
-age 	24
-> address 	
-Key/Property 	Value
-city 	edison
-state 	new jersey
-country 	united states
+name 	        john
+gender 	      male
+age 	        24
+ 
+       address 	
+  Key/Property 	Value
+  city 	edison
+  state 	new jersey
+  country 	united states
+  
+# sample inventory
+
+employee:
+    name: john
+    gender: male
+    age: 24
+
+    address:
+       city: edison
+       state: new jersey
+       country: united states
