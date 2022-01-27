@@ -13,7 +13,7 @@ We have been running all tasks on localhost. We would now like to run these task
             name: 'Execute a command to display hosts file'
             command: 'cat /etc/hosts'
 
-#Sample Playbook
+# Sample Playbook
 
 -
     name: 'Execute two commands on webserver'
