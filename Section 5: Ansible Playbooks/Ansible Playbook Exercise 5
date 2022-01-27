@@ -13,7 +13,7 @@ Name the task Execute a command to display hosts file.
 
 Refer to the attached inventory file
 
-#Sample Playbook
+# Sample Playbook
 
 -
     name: 'Execute command to display date on web_node1'
