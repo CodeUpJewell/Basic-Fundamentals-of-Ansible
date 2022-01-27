@@ -14,7 +14,7 @@ Refer to the attached inventory file. We would like to run the tasks defined in 
             command: 'cat /etc/hosts'
 
 
-#Sample Playbook
+# Sample Playbook
 
 -
     name: 'Execute two commands on web_node1'
