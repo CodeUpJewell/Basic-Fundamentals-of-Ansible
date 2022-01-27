@@ -1,0 +1,27 @@
+Ansible Playbooks
+
+We have been running all tasks on localhost. We would now like to run these tasks on the web_node1. Update the play to run the tasks on web_node1.
+
+-
+    name: 'Execute two commands on localhost'
+    hosts: localhost
+    tasks:
+        -
+            name: 'Execute a date command'
+            command: date
+        -
+            name: 'Execute a command to display hosts file'
+            command: 'cat /etc/hosts'
+
+#Sample Playbook
+
+-
+    name: 'Execute two commands on webserver'
+    hosts: web_node1
+    tasks:
+        -
+            name: 'Execute a date command'
+            command: date
+        -
+            name: 'Execute a command to display hosts file'
+            command: 'cat /etc/hosts'
