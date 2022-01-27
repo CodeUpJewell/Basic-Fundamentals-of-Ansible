@@ -10,7 +10,7 @@ Update the playbook to add a second task. The new task must execute the command 
             name: 'Execute a date command'
             command: date
             
-#Sample Playbook
+# Sample Playbook
 
 -
     name: 'Execute two commands on localhost'
