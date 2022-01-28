@@ -21,7 +21,6 @@ Create three new variables (car_model, country_name and title) under the play an
 # Sample Variables
 
 -
-    name: 'Update car model, country_name, title'
     hosts: localhost
     vars:
             car_model: "BMW M3"
@@ -29,11 +28,8 @@ Create three new variables (car_model, country_name and title) under the play an
             title: "Systems Engineer"
     tasks:
         -
-            name: 'Print my car model'
             command: 'echo "My car''s model is {{ car_model }}"'
         -
-            name: 'Print my country'
             command: 'echo "I live in the {{ country_name }}"'
         -
-            name: 'Print my title'
             command: 'echo "I work as a {{ title }}"'
