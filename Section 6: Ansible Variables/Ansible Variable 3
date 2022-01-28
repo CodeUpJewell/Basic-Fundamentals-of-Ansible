@@ -21,7 +21,7 @@ Create three new variables (car_model, country_name and title) under the play an
 # Sample Variables
 
 -
-    name: 'Update nameserver entry into resolv.conf file on localhost'
+    name: 'Update car model, country_name, title'
     hosts: localhost
     vars:
             car_model: "BMW M3"
