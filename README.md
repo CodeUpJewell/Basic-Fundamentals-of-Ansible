@@ -10,7 +10,7 @@ This project shows:
 
 - Beginner level introduction to Ansible
 - Introduction to YAML and Hands-on Exercises
-- Build Ansible Inventory Files with Hands-on Exercises
+- Build Ansible Playbook Files with Hands-on Exercises
 - Build Ansible Inventory Files with Hands-on Exercises
 - Automate provisioning and web server deployment
 
