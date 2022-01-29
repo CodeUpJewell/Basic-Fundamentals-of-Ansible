@@ -8,7 +8,7 @@ Each section is accompanied by a set of coding case point showing my hands-on ex
 
 This project shows:
 
-- Beginner level introduction to Ansible
+- Introduction to Ansible
 - Introduction to YAML and Hands-on Exercises
 - Build Ansible Playbook Files with Hands-on Exercises
 - Build Ansible Inventory Files with Hands-on Exercises
