@@ -141,3 +141,5 @@ sudo sed -i 's/172.20.1.101/localhost/g' /var/www/html/index.php
     Test
 
 curl http://localhost
+
+[1] KloudKode (2022) learning-app-ecommerce [https://github.com/kodekloudhub/learning-app-ecommerce#introduction].
