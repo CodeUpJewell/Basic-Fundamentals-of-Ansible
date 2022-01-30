@@ -144,7 +144,7 @@ curl http://localhost
 
 # Project Solution
    ## Section 10: Ansible E-Commerce Project
-    Ansible Playbook Project Solution - Is a working Ansinble playbook in yaml form that will work.
+    Ansible Playbook Project Solution - Is a working Ansinble playbook in yaml form that will do all of the above.
     Deploy-Configure-Database 1-2.png - Installing MariaDB
     Deploy-Configure-Database 2-2.png - Checking if MariaDB was installed correctly and is working
     Deploy-Configure-Database 3-1.png - Configure firewall for Database(port 3306)
