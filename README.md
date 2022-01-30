@@ -143,7 +143,7 @@ Update index.php file to connect to the right database server. In this case loca
 curl http://localhost
 
 # Project Solution
-    Section 10: Ansible E-Commerce Project
+   ## Section 10: Ansible E-Commerce Project
     Ansible Playbook Project Solution - Is a working Ansinble playbook in yaml form that will work.
     Deploy-Configure-Database 1-2.png - Installing MariaDB
     Deploy-Configure-Database 2-2.png - Checking if MariaDB was installed correctly and is working
