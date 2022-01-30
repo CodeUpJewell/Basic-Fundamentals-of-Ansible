@@ -100,29 +100,29 @@ Run sql script
 
 # Deploy and Configure Web
 
-   1.Install required packages
+   1. Install required packages
 
     sudo yum install -y httpd php php-mysql
     sudo firewall-cmd --permanent --zone=public --add-port=80/tcp
     sudo firewall-cmd --reload
 
-   2.Configure httpd
+   2. Configure httpd
 
 Change DirectoryIndex index.html to DirectoryIndex index.php to make the php page the default page
 
     sudo sed -i 's/index.html/index.php/g' /etc/httpd/conf/httpd.conf
 
-   3.Start httpd
+   3. Start httpd
 
     sudo service httpd start
     sudo systemctl enable httpd
 
-   4.Download code
+   4. Download code
 
     sudo yum install -y git
     git clone https://github.com/kodekloudhub/learning-app-ecommerce.git /var/www/html/
 
-   5.Update index.php
+   5. Update index.php
 
 Update index.php file to connect to the right database server. In this case localhost since the database is on the same server.
 
@@ -138,7 +138,7 @@ Update index.php file to connect to the right database server. In this case loca
 
     sudo sed -i 's/172.20.1.101/localhost/g' /var/www/html/index.php
 
-   6.Test
+   6. Test
 
 curl http://localhost
 
