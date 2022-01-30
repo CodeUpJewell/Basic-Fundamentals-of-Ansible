@@ -142,5 +142,5 @@ sudo sed -i 's/172.20.1.101/localhost/g' /var/www/html/index.php
 
 curl http://localhost
 
-Big thank you for KloudKode for this project and course. Be sure to visit their repository below for further information.
+## Big thank you for KloudKode for this project and course. Be sure to visit their repository below for further information.
 [1] KloudKode (2022) learning-app-ecommerce [https://github.com/kodekloudhub/learning-app-ecommerce#introduction].
