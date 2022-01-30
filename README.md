@@ -142,5 +142,22 @@ Update index.php file to connect to the right database server. In this case loca
 
 curl http://localhost
 
+# Project Solution
+    Ansible Playbook Project Solution - Is a working Ansinble playbook in yaml form that will work.
+    Deploy-Configure-Database 1-2.png - Installing MariaDB
+    Deploy-Configure-Database 2-2.png - Checking if MariaDB was installed correctly and is working
+    Deploy-Configure-Database 3-1.png - Configure firewall for Database(port 3306)
+    Deploy-Configure-Database 3-2.png - Configuring Database and creating ecomdb and ecomuser with all permissions
+    Deploy-Configure-Database 4-1.png - Load Product Inventory Information to database and Create the db-load-script.sql. We then run the sql script
+    Deploy-Configure-Web 1-1.png - Installing the required packages(php-mysql)
+    Deploy-Configure-Web 1-2.png - Configuring the firewall(port 80 http)
+    Deploy-Configure-Web 2-1.png - Checking if Apache HTTP Server was installed correctly and is working
+    Deploy-Configure-Web 4-1.png - Installing Git and and cloning repositry to appropriate location
+    Deploy-Configure-Web 5-1.png - Configure httpd and changing the DirectoryIndex index.html to DirectoryIndex index.php to make the php page the default page
+    Deploy-Configure-Web 5-2.png - Checking if data was inserted correctly into the table using the appropriate sql script on MariaDb
+    Deploy-Pre-Requisites 1-1.png - Installing FirewallD
+    Deploy-Pre-Requisites 1-2.png - Start and enable Firewalld to automatically start when the system reboots
+    Deploy-Pre-Requisites 1-3.png - Checking if firewall for database was installed correctly and is working
+    
 ## Big thank you to Mumshad Mannambeth and KloudKode for this project and course. Be sure to visit their repository below for further information. Credits below.
 [1] KloudKode (2022) learning-app-ecommerce [https://github.com/kodekloudhub/learning-app-ecommerce#introduction].
