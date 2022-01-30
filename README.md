@@ -44,7 +44,7 @@ It's simple, powerful, and agentless providing provisioning, config management, 
 - CentOS
 - Linux Administrator Skills
 
-# Introduction to E-commerce website project
+# Section 10: Introduction to E-commerce website project
 
 This is a sample e-commerce application built for learning purposes.
 
