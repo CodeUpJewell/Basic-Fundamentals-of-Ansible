@@ -142,5 +142,5 @@ Update index.php file to connect to the right database server. In this case loca
 
 curl http://localhost
 
-## Big thank you for KloudKode for this project and course. Be sure to visit their repository below for further information. Credits below.
+## Big thank you to Mumshad Mannambeth and KloudKode for this project and course. Be sure to visit their repository below for further information. Credits below.
 [1] KloudKode (2022) learning-app-ecommerce [https://github.com/kodekloudhub/learning-app-ecommerce#introduction].
