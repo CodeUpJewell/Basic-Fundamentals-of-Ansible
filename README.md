@@ -85,48 +85,48 @@ MariaDB > FLUSH PRIVILEGES;
 
 Create the db-load-script.sql
 
-cat > db-load-script.sql <<-EOF
-USE ecomdb;
-CREATE TABLE products (id mediumint(8) unsigned NOT NULL auto_increment,Name varchar(255) default NULL,Price varchar(255) default NULL, ImageUrl varchar(255) default NULL,PRIMARY KEY (id)) AUTO_INCREMENT=1;
+    cat > db-load-script.sql <<-EOF
+    USE ecomdb;
+    CREATE TABLE products (id mediumint(8) unsigned NOT NULL auto_increment,Name varchar(255) default NULL,Price varchar(255) default NULL, ImageUrl varchar(255) default NULL,PRIMARY KEY (id)) AUTO_INCREMENT=1;
 
-INSERT INTO products (Name,Price,ImageUrl) VALUES ("Laptop","100","c-1.png"),("Drone","200","c-2.png"),("VR","300","c-3.png"),("Tablet","50","c-5.png"),("Watch","90","c-6.png"),("Phone Covers","20","c-7.png"),("Phone","80","c-8.png"),("Laptop","150","c-4.png");
+    INSERT INTO products (Name,Price,ImageUrl) VALUES ("Laptop","100","c-1.png"),("Drone","200","c-2.png"),("VR","300","c-3.png"),("Tablet","50","c-5.png"),("Watch","90","c-6.png"),("Phone Covers","20","c-7.png"),("Phone","80","c-8.png"),("Laptop","150","c-4.png");
 
-EOF
+    EOF
 
 Run sql script
 
 
-mysql < db-load-script.sql
+    mysql < db-load-script.sql
 
 # Deploy and Configure Web
 
-    Install required packages
+   1.Install required packages
 
-sudo yum install -y httpd php php-mysql
-sudo firewall-cmd --permanent --zone=public --add-port=80/tcp
-sudo firewall-cmd --reload
+    sudo yum install -y httpd php php-mysql
+    sudo firewall-cmd --permanent --zone=public --add-port=80/tcp
+    sudo firewall-cmd --reload
 
-    Configure httpd
+   2.Configure httpd
 
 Change DirectoryIndex index.html to DirectoryIndex index.php to make the php page the default page
 
-sudo sed -i 's/index.html/index.php/g' /etc/httpd/conf/httpd.conf
+    sudo sed -i 's/index.html/index.php/g' /etc/httpd/conf/httpd.conf
 
-    Start httpd
+   3.Start httpd
 
-sudo service httpd start
-sudo systemctl enable httpd
+    sudo service httpd start
+    sudo systemctl enable httpd
 
-    Download code
+   4.Download code
 
-sudo yum install -y git
-git clone https://github.com/kodekloudhub/learning-app-ecommerce.git /var/www/html/
+    sudo yum install -y git
+    git clone https://github.com/kodekloudhub/learning-app-ecommerce.git /var/www/html/
 
-    Update index.php
+   5.Update index.php
 
 Update index.php file to connect to the right database server. In this case localhost since the database is on the same server.
 
-sudo sed -i 's/172.20.1.101/localhost/g' /var/www/html/index.php
+    sudo sed -i 's/172.20.1.101/localhost/g' /var/www/html/index.php
 
               <?php
                         $link = mysqli_connect('172.20.1.101', 'ecomuser', 'ecompassword', 'ecomdb');
@@ -134,11 +134,11 @@ sudo sed -i 's/172.20.1.101/localhost/g' /var/www/html/index.php
                         $res = mysqli_query($link, "select * from products;");
                         while ($row = mysqli_fetch_assoc($res)) { ?>
 
-    ON a multi-node setup remember to provide the IP address of the database server here.
+    > ON a multi-node setup remember to provide the IP address of the database server here.
 
-sudo sed -i 's/172.20.1.101/localhost/g' /var/www/html/index.php
+    sudo sed -i 's/172.20.1.101/localhost/g' /var/www/html/index.php
 
-    Test
+   6.Test
 
 curl http://localhost
 
