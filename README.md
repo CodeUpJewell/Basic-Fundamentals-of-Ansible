@@ -81,7 +81,7 @@ MariaDB > FLUSH PRIVILEGES;
 
     ON a multi-node setup remember to provide the IP address of the web server here: 'ecomuser'@'web-server-ip'
 
-    Load Product Inventory Information to database
+   4.Load Product Inventory Information to database
 
 Create the db-load-script.sql
 
